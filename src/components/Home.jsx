@@ -15,6 +15,7 @@ import { FaNodeJs } from "react-icons/fa6";
 import { ReactTyped } from "react-typed";
 
 function Home() {
+  
   return (
     <>
       <div
@@ -26,10 +27,9 @@ function Home() {
             <span className="text-xl">Welcome In My Feed</span>
             <div className="flex space-x-1 text-2xl md:text-4xl">
               <h1>Hello, I'm a</h1>
-              {/* <span >Developer</span> */}
               <ReactTyped
                 className="text-red-700 font-bold"
-                strings={["Developer", "Programmer", "Coder"]}
+                strings={["Developer", "Programmer", "Coder","Photographer"]}
                 typeSpeed={40}
                 backSpeed={50}
                 loop={true}
